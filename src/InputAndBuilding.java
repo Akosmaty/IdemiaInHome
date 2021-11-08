@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class InputAndBuilding {
-    private final List<String> list = new ArrayList<>();
+    private List<String> list = new ArrayList<>();
     private final Scanner scanner = new Scanner(System.in);
 
     private int linesEncounter = 0;
@@ -75,7 +75,7 @@ public class InputAndBuilding {
         for (int p = 0; p < printList.size(); p++) {
             System.out.println(printList.get(p));
         }
-
+        this.list = printList;
     }
 
 
