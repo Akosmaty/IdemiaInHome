@@ -48,7 +48,7 @@ public class InputAndBuilding {
 
         }
 
-        System.out.println(packageEncuounter);
+
 
 
         for (int k = 0; k < linesEncounter; k++) {
